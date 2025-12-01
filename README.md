@@ -32,5 +32,4 @@
         <div className="max-w-6xl mx-auto px-4 text-sm text-slate-600">© Move Easy — Prototype</div>
       </footer>
     </div>
-  );
-}
+  );}
