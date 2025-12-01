@@ -148,11 +148,7 @@
         effizient, modern und umweltverträglich ist.
     </p>
 
-    <div class="highlight-box">
-        <strong>Unsere Mission:</strong><br>
-        Den Mobilitätsalltag von Studierenden revolutionieren – durch smarte Technologie,
-        gebündelte Mobilitätsangebote und klare, nutzerfreundliche Lösungen.
-    </div>
+    
 </section>
 
 <section>
