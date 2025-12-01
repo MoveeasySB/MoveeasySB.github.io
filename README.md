@@ -132,7 +132,6 @@
 
 <nav>
     <a href="#">Startseite</a>
-    <a href="#">Unsere Idee</a>
     <a href="#">Problem & Lösung</a>
     <a href="#">Pitch Video</a>
     <a href="#">Kontakt</a>
