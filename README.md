@@ -1,216 +1,108 @@
 <!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Move Easy – Nachhaltige Mobilität für Studierende</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f9f9f9;
-            color: #222;
-        }
+}
 
-        header {
-            background: #111;
-            color: white;
-            padding: 80px 20px;
-            text-align: center;
-        }
 
-        header img {
-            width: 180px;
-            margin-bottom: 20px;
-        }
-
-        header h1 {
-            font-size: 48px;
-            margin: 10px 0;
-        }
-
-        header p {
-            font-size: 20px;
-            max-width: 700px;
-            margin: 0 auto;
-            opacity: 0.9;
-        }
-
-        nav {
-            background: #ffffff;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-            padding: 15px 0;
-            text-align: center;
-        }
-
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #111;
-            font-weight: bold;
-        }
-
-        section {
-            max-width: 1000px;
-            margin: 40px auto;
-            padding: 25px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.08);
-        }
-
-        h2 {
-            color: #0a58ff;
-            margin-bottom: 10px;
-        }
-
-        .two-column {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
-
-        .two-column div {
-            flex: 1;
-            min-width: 300px;
-        }
-
-        .highlight-box {
-            background: #eef3ff;
-            padding: 20px;
-            border-left: 5px solid #0a58ff;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-
-        iframe {
-            width: 100%;
-            height: 360px;
-            border-radius: 10px;
-            margin-top: 20px;
-        }
-
-        footer {
-            background: #111;
-            color: #bbb;
-            text-align: center;
-            padding: 30px 10px;
-            margin-top: 50px;
-        }
-
-        footer a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        .cta-btn {
-            display: inline-block;
-            background: #0a58ff;
-            color: white;
-            padding: 14px 26px;
-            border-radius: 8px;
-            margin-top: 20px;
-            text-decoration: none;
-            font-size: 18px;
-        }
-
-        .cta-btn:hover {
-            background: #003ecb;
-        }
-    </style>
+footer a {
+color: #fff;
+text-decoration: none;
+}
+</style>
 </head>
-
 <body>
 
-<header>
-    <!-- Dein Logo hier -->
-    <img src="MoveEasyLogo.jpeg" alt="Move Easy Logo">
 
-    <h1>Move Easy</h1>
-    <p>Die nachhaltige Mobilitätsplattform für Studierende – schneller, einfacher und umweltfreundlicher zur Hochschule.</p>
+<header>
+<!-- Optional: Logo -->
+<!-- <img src="logo.png" alt="Startup Logo"> -->
+<h1>Unsere Startup‑Vision</h1>
+<p>Wir lösen ein echtes Problem mit einer skalierbaren, digitalen Lösung und schaffen messbaren Mehrwert für Nutzer und Stakeholder.</p>
+<a class="cta-btn" href="#calendly">Termin vereinbaren</a>
 </header>
 
+
 <nav>
-    <a href="#">Startseite</a>
-    <a href="#">Problem & Lösung</a>
-    <a href="#">Pitch Video</a>
-    <a href="#">Kontakt</a>
-    <a href="#">Impressum</a>
+<a href="#idee">Geschäftsidee</a>
+<a href="#vorteile">Vorteile</a>
+<a href="#video">Pitch‑Video</a>
+<a href="#calendly">Kontakt</a>
 </nav>
 
-<section>
-    <h2>Unsere Vision</h2>
-    <p>
-        Wir glauben an eine Zukunft, in der nachhaltige Mobilität selbstverständlich ist –
-        auch im hektischen Alltag von Studierenden. Mit Move Easy wollen wir dafür sorgen,
-        dass der tägliche Weg zur Universität nicht stressig oder teuer, sondern
-        effizient, modern und umweltverträglich ist.
-    </p>
 
-    
+<section id="idee">
+<h2>Unsere Geschäftsidee</h2>
+<p>
+Unsere Startup‑Idee adressiert ein zentrales Problem im Alltag bzw. im Markt:
+ineffiziente Prozesse, fehlende Transparenz und unnötiger Zeitaufwand.
+Mit unserer Lösung bieten wir eine benutzerfreundliche Plattform, die
+Prozesse vereinfacht, automatisiert und nachhaltig verbessert.
+</p>
+
+
+<div class="highlight-box">
+<strong>Vision:</strong> Eine digitale Lösung, die Menschen Zeit spart,
+Kosten reduziert und smartere Entscheidungen ermöglicht.
+</div>
 </section>
 
-<section>
-    <h2>Die Idee – Was ist Move Easy?</h2>
-    <div class="two-column">
-        <div>
-            <p>
-                Move Easy ist eine digitale Plattform, die alle nachhaltigen Mobilitätsoptionen
-                für Studierende kombiniert: Carsharing, Bike-Sharing und Informationen zum
-                öffentlichen Nahverkehr (ÖPNV). Unsere Weblösung zeigt dir in Sekunden die
-                schnellste, günstigste oder umweltfreundlichste Route.
-            </p>
 
-            <p>
-                Zusätzlich unterstützen wir die Integration von exklusiven Hochschulbussen –
-                für eine noch effizientere und bequemere Verbindung zur Universität.
-            </p>
-        </div>
-
-        <div>
-            <img src="mobilitaet.jpg" alt="Nachhaltige Mobilität" style="width:100%; border-radius:10px;">
-        </div>
-    </div>
+<section id="vorteile">
+<h2>Warum unser Startup?</h2>
+<div class="two-column">
+<div>
+<h3>Für Nutzer</h3>
+<ul>
+<li>Einfache und intuitive Bedienung</li>
+<li>Zeit- und Kostenersparnis</li>
+<li>Hohe Transparenz und Kontrolle</li>
+</ul>
+</div>
+<div>
+<h3>Für Stakeholder</h3>
+<ul>
+<li>Skalierbares Geschäftsmodell</li>
+<li>Klares Nutzenversprechen</li>
+<li>Großes Marktpotenzial</li>
+</ul>
+</div>
+</div>
 </section>
 
-<section>
-    <h2>Das Problem</h2>
-    <ul>
-        <li>Unübersichtliche und unzuverlässige Verkehrsverbindungen</li>
-        <li>Verstreute Informationen über viele Apps und Webseiten</li>
-        <li>Wenig Nutzung nachhaltiger Mobilitätsangebote</li>
-        <li>Hoher CO₂-Ausstoß durch Individualverkehr</li>
-        <li>Keine transparente Übersicht über Kosten & Zeiten</li>
-    </ul>
+
+<section id="video">
+<h2>MVP Pitch‑Video</h2>
+<p>In diesem Video stellen wir unsere Idee, das Problem und unsere Lösung kompakt vor:</p>
+
+
+<!-- YouTube Embed – HIER EURE VIDEO-ID EINSETZEN -->
+<iframe src="https://www.youtube.com/embed/VIDEO_ID_HIER"
+title="Pitch Video"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
 </section>
 
-<section>
-    <h2>Unsere Lösung</h2>
-    <div class="highlight-box">
-        Move Easy bündelt alle Mobilitätsangebote auf einer Plattform, vergleicht Optionen in Echtzeit und zeigt dir die optimale Route – nachhaltig, kostengünstig und zeitsparend.
-    </div>
 
-    <ul>
-        <li>Alle Optionen auf einer Plattform</li>
-        <li>Echtzeit-Daten aus ÖPNV, Carsharing & Bikesharing</li>
-        <li>Vergleich: schnellste, günstigste & nachhaltigste Route</li>
-        <li>Speziell für Studierende entwickelt</li>
-        <li>Modernes, einfaches und intuitives Webdesign</li>
-    </ul>
+<section id="calendly">
+<h2>Termin vereinbaren</h2>
+<p>
+Sie möchten mehr erfahren oder mit dem Projektteam sprechen?
+Buchen Sie direkt einen Termin über Calendly.
+</p>
 
-    <a href="#" class="cta-btn">Mehr über Move Easy erfahren</a>
+
+<!-- Variante 1: Call-to-Action Link -->
+<a class="cta-btn" href="https://calendly.com/IHRLINK" target="_blank">Termin buchen</a>
+
+
+<!-- Variante 2: Direkt eingebetteter Calendly‑Kalender -->
+<iframe src="https://calendly.com/IHRLINK" style="height: 600px; margin-top: 30px;"></iframe>
 </section>
 
-<section>
-    <h2>Pitch-Video</h2>
-    <p>Hier stellen wir unsere Projektidee vor – kompakt, modern und überzeugend.</p>
-    <iframe src="https://www.youtube.com/embed/VIDEO_LINK" allowfullscreen></iframe>
-</section>
 
 <footer>
-    Move Easy – Ein Projekt der HTW Saar<br>
-    © 2026 Move Easy · <a href="#">Impressum</a>
+<p>&copy; 2026 – Startup Name · <a href="mailto:kontakt@startup.de">kontakt@startup.de</a></p>
 </footer>
+
 
 </body>
 </html>
