@@ -104,25 +104,3 @@ header {
         background: #003ecb;
     }
 </style>
-<section id="calendly">
-<h2>Termin buchen</h2>
-<p>
-Sie möchten mehr erfahren oder mit dem Projektteam sprechen?
-Buchen Sie direkt einen Termin über Calendly.
-</p>
-
-
-<a class="cta-btn" href="https://calendly.com/IHRLINK" target="_blank">Termin buchen</a>
-
-
-<iframe src="https://calendly.com/IHRLINK" style="height: 600px;"></iframe>
-</section>
-
-
-<footer>
-<p>&copy; 2026 – Startup Name · <a href="mailto:kontakt@startup.de">kontakt@startup.de</a></p>
-</footer>
-
-
-</body>
-</html>
