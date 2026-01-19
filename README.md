@@ -5,6 +5,10 @@
     <title>Startup Landing Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Calendly Styles & Script -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
     <style>
         body {
             margin: 0;
@@ -149,7 +153,13 @@
     <img src="logo.png" alt="Startup Logo">
     <h1>Startup Name</h1>
     <p>Unsere Lösung vereinfacht Prozesse, spart Zeit und schafft echten Mehrwert.</p>
-    <a class="cta-btn" href="#calendly">Termin vereinbaren</a>
+
+    <!-- Calendly Popup Button -->
+    <a class="cta-btn"
+       href="#"
+       onclick="Calendly.initPopupWidget({url: 'https://calendly.com/deinname/erstgespraech'}); return false;">
+        Termin vereinbaren
+    </a>
 </header>
 
 <nav>
@@ -198,24 +208,26 @@
 <section id="video">
     <h2>MVP Pitch-Video</h2>
     <p>Das folgende Video stellt unsere Idee, das Problem und die Lösung kompakt vor.</p>
-
     <iframe src="https://www.youtube.com/embed/VIDEO_ID_HIER" allowfullscreen></iframe>
 </section>
 
 <section id="calendly">
     <h2>Termin buchen</h2>
     <p>
-        Sie möchten mehr erfahren oder mit dem Projektteam sprechen?
-        Buchen Sie direkt einen Termin über Calendly.
+        Vereinbaren Sie direkt einen Termin mit dem Projektleiter oder Projektteam.
     </p>
 
-    <a class="cta-btn" href="https://calendly.com/IHRLINK" target="_blank">Termin buchen</a>
-
-    <iframe src="https://calendly.com/IHRLINK" style="height: 600px;"></iframe>
+    <!-- Calendly Inline Widget -->
+    <div class="calendly-inline-widget"
+         data-url="https://calendly.com/deinname/erstgespraech"
+         style="min-width:320px;height:630px;">
+    </div>
 </section>
 
 <footer>
-    <p>&copy; 2026 – Startup Name · <a href="mailto:kontakt@startup.de">kontakt@startup.de</a></p>
+    <p>&copy; 2026 – Startup Name ·
+        <a href="mailto:kontakt@startup.de">kontakt@startup.de</a>
+    </p>
 </footer>
 
 </body>
