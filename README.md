@@ -1,4 +1,3 @@
-
 <html lang="de">
 <head>
     <meta charset="UTF-8">
@@ -180,8 +179,7 @@
         Move Easy ist eine digitale Plattform, die nachhaltige Mobilitätsangebote
         wie <strong>Carsharing</strong>, <strong>Bikesharing</strong> sowie
         Informationen zum <strong>öffentlichen Nahverkehr (ÖPNV)</strong>
-        übersichtlich bündelt. Zusätzlich fördern wir spezielle Busverbindungen
-        direkt zu Hochschulen.
+        übersichtlich bündelt.
     </p>
 
     <div class="highlight-box">
@@ -194,7 +192,7 @@
     <h2>Der Mehrwert von Move Easy</h2>
     <div class="two-column">
         <div>
-            <h3>🎓 Für Studierende</h3>
+            <h3>Für Studierende</h3>
             <ul>
                 <li>Einfachere und schnellere Wege zur Universität</li>
                 <li>Kostengünstige Mobilitätslösungen</li>
@@ -202,7 +200,7 @@
             </ul>
         </div>
         <div>
-            <h3>🌍 Gesellschaftlicher Nutzen</h3>
+            <h3>Gesellschaftlicher Nutzen</h3>
             <ul>
                 <li>Reduktion von Verkehr und Emissionen</li>
                 <li>Förderung nachhaltiger Mobilitätskonzepte</li>
@@ -224,7 +222,9 @@
 <section id="kontakt" class="cta-section">
     <h2>Interesse an Move Easy?</h2>
     <p>Vereinbaren Sie jetzt einen Termin mit unserem Projektteam.</p>
-    <a class="cta-btn" href="https://calendly.com/IHRLINK" target="_blank">
+    <a class="cta-btn"
+       href="https://calendly.com/sherinkhetib/neues-meeting"
+       target="_blank">
         Termin buchen
     </a>
 </section>
