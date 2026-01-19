@@ -152,12 +152,7 @@
     <h1> Move Easy </h1>
     <p>Unsere Lösung vereinfacht Prozesse, spart Zeit und schafft echten Mehrwert.</p>
 
-    <!-- Calendly Popup Button -->
-    <a class="cta-btn"
-       href="#"
-       onclick="Calendly.initPopupWidget({url: 'https://calendly.com/deinname/erstgespraech'}); return false;">
-        Termin vereinbaren
-    </a>
+    
 </header>
 
 <nav>
