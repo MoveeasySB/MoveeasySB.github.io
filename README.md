@@ -96,5 +96,4 @@ footer a {
 .cta-btn:hover {
     background: #003ecb;
 }
-
 </style>
