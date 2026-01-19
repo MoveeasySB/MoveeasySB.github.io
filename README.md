@@ -5,9 +5,7 @@
     <title>Startup Landing Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Calendly Styles & Script -->
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+   
 
     <style>
         body {
