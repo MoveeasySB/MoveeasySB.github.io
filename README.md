@@ -149,7 +149,7 @@
 
 <header>
     <img src="logo.png" alt="Startup Logo">
-    <h1>Startup Name</h1>
+    <h1><Move Easy </h1>
     <p>Unsere Lösung vereinfacht Prozesse, spart Zeit und schafft echten Mehrwert.</p>
 
     <!-- Calendly Popup Button -->
