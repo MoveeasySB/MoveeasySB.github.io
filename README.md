@@ -2,265 +2,255 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Move Easy – Nachhaltige Mobilität für Studierende</title>
+    <title>Move Easy – Digitale Mobilität für Studierende</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
-        /* ===============================
-           Globale Variablen
-        =============================== */
         :root {
-            --color-primary: #2563eb;
-            --color-secondary: #10b981;
-            --color-bg: #f8fafc;
-            --color-white: #ffffff;
-            --color-text: #1e293b;
-            --color-text-light: #64748b;
-            --border-radius: 16px;
+            --primary: #4f46e5;
+            --accent: #22c55e;
+            --bg: #f9fafb;
+            --white: #ffffff;
+            --text: #111827;
+            --muted: #6b7280;
+            --radius: 14px;
         }
 
         * {
-            box-sizing: border-box;
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
             font-family: 'Inter', sans-serif;
         }
 
         body {
-            background-color: var(--color-bg);
-            color: var(--color-text);
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        /* ================= HERO ================= */
+        .hero {
+            background: var(--white);
+            padding: 110px 20px 90px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 56px;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 820px;
+            margin: auto;
+            color: var(--muted);
             line-height: 1.7;
         }
 
-        /* ===============================
-           Header / Hero
-        =============================== */
-        header {
-            background: linear-gradient(135deg, #eff6ff, #ecfeff);
-            padding: 100px 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 52px;
-            font-weight: 700;
-            margin-bottom: 20px;
-        }
-
-        header p {
-            font-size: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-            color: var(--color-text-light);
-        }
-
-        /* ===============================
-           Navigation
-        =============================== */
+        /* ================= NAV ================= */
         nav {
-            background-color: var(--color-white);
-            padding: 16px 0;
-            text-align: center;
+            background: var(--white);
             position: sticky;
             top: 0;
             z-index: 10;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 16px;
+            gap: 30px;
         }
 
         nav a {
-            margin: 0 18px;
             text-decoration: none;
-            font-weight: 600;
-            color: var(--color-primary);
-            font-size: 15px;
+            color: var(--text);
+            font-weight: 500;
         }
 
         nav a:hover {
-            text-decoration: underline;
+            color: var(--primary);
         }
 
-        /* ===============================
-           Sections
-        =============================== */
+        /* ================= SECTIONS ================= */
         section {
             max-width: 1100px;
-            margin: 70px auto;
-            padding: 50px;
-            background-color: var(--color-white);
-            border-radius: var(--border-radius);
-            box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+            margin: 90px auto;
+            padding: 0 20px;
         }
 
         section h2 {
-            font-size: 34px;
+            font-size: 36px;
             margin-bottom: 24px;
         }
 
         section p {
-            font-size: 17px;
-            margin-bottom: 16px;
+            font-size: 18px;
+            line-height: 1.8;
+            color: var(--muted);
         }
 
-        .two-column {
-            display: flex;
-            gap: 40px;
-            flex-wrap: wrap;
-            margin-top: 30px;
+        /* ================= GRID ================= */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
         }
 
-        .two-column > div {
-            flex: 1;
-            min-width: 280px;
+        .card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: var(--radius);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
         }
 
-        ul {
-            padding-left: 20px;
+        .card h3 {
+            margin-bottom: 10px;
+            color: var(--primary);
+            font-size: 20px;
         }
 
-        li {
-            margin-bottom: 12px;
-        }
-
-        /* ===============================
-           Highlight Box
-        =============================== */
-        .highlight {
-            margin-top: 30px;
-            padding: 28px;
-            background-color: #f0fdf4;
-            border-left: 6px solid var(--color-secondary);
-            border-radius: 12px;
-            font-size: 17px;
-        }
-
-        /* ===============================
-           Video
-        =============================== */
-        iframe {
+        /* ================= VIDEO ================= */
+        .video iframe {
             width: 100%;
-            height: 420px;
-            border-radius: 14px;
+            height: 450px;
+            border-radius: var(--radius);
             border: none;
-            margin-top: 25px;
+            margin-top: 30px;
         }
 
-        /* ===============================
-           Call to Action
-        =============================== */
+        /* ================= CTA ================= */
         .cta {
+            background: linear-gradient(135deg, #eef2ff, #ecfeff);
+            padding: 90px 20px;
             text-align: center;
-            background: #f1f5f9;
+            margin-top: 120px;
+        }
+
+        .cta h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            max-width: 700px;
+            margin: auto;
         }
 
         .cta a {
             display: inline-block;
-            margin-top: 25px;
-            padding: 16px 36px;
-            background-color: var(--color-primary);
+            margin-top: 30px;
+            padding: 16px 40px;
+            background: var(--primary);
             color: white;
             text-decoration: none;
             border-radius: 40px;
-            font-size: 17px;
             font-weight: 600;
+            font-size: 17px;
         }
 
         .cta a:hover {
-            background-color: #1d4ed8;
+            background: #4338ca;
         }
 
         .calendly-inline-widget {
-            margin-top: 40px;
-            border-radius: 14px;
+            margin-top: 50px;
+            border-radius: var(--radius);
             overflow: hidden;
         }
 
-        /* ===============================
-           Footer
-        =============================== */
+        /* ================= FOOTER ================= */
         footer {
             text-align: center;
             padding: 40px 20px;
-            color: var(--color-text-light);
             font-size: 14px;
+            color: var(--muted);
         }
     </style>
 </head>
 
 <body>
 
-<header>
+<div class="hero">
     <h1>Move Easy</h1>
     <p>
-        Eine digitale Plattform, die Studierenden hilft,
-        einfacher, günstiger und nachhaltiger zur Universität zu gelangen.
+        Move Easy ist eine digitale Plattform, die Studierenden dabei hilft,
+        ihren täglichen Weg zur Universität effizienter, kostengünstiger
+        und nachhaltiger zu gestalten.
     </p>
-</header>
+</div>
 
 <nav>
-    <a href="#idee">Geschäftsidee</a>
-    <a href="#mehrwert">Mehrwert</a>
-    <a href="#video">Pitch-Video</a>
-    <a href="#termin">Termin buchen</a>
+    <ul>
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#loesung">Lösung</a></li>
+        <li><a href="#nutzen">Nutzen</a></li>
+        <li><a href="#video">Pitch</a></li>
+        <li><a href="#termin">Termin</a></li>
+    </ul>
 </nav>
 
-<section id="idee">
-    <h2>Geschäftsidee</h2>
+<section id="problem">
+    <h2>Das Problem</h2>
     <p>
-        Viele Studierende pendeln täglich zur Universität und stehen dabei vor
-        Herausforderungen wie steigenden Kosten, Zeitverlust und fehlenden
-        nachhaltigen Alternativen.
+        Viele Studierende sind täglich auf dem Weg zur Universität mit
+        hohen Kosten, unübersichtlichen Verkehrsangeboten und mangelnden
+        nachhaltigen Alternativen konfrontiert.
     </p>
+</section>
+
+<section id="loesung">
+    <h2>Unsere Lösung</h2>
     <p>
-        <strong>Move Easy</strong> bündelt Carsharing, Bikesharing und Informationen
-        zum öffentlichen Nahverkehr auf einer zentralen Plattform und ergänzt diese
+        Move Easy bündelt Carsharing, Bikesharing und den öffentlichen
+        Nahverkehr auf einer zentralen Plattform und ergänzt diese
         durch gezielte Busverbindungen zu Hochschulen.
     </p>
-
-    <div class="highlight">
-        <strong>Vision:</strong> Nachhaltige Mobilität im studentischen Alltag
-        etablieren und den CO₂-Ausstoß langfristig reduzieren.
-    </div>
 </section>
 
-<section id="mehrwert">
-    <h2>Mehrwert von Move Easy</h2>
-    <div class="two-column">
-        <div>
+<section id="nutzen">
+    <h2>Was Move Easy bietet</h2>
+
+    <div class="grid">
+        <div class="card">
             <h3>Für Studierende</h3>
-            <ul>
-                <li>Einfachere und schnellere Wege zur Universität</li>
-                <li>Kostengünstige Mobilitätslösungen</li>
-                <li>Umweltfreundliche Alternativen</li>
-            </ul>
+            <p>Einfache Planung des täglichen Arbeitswegs mit kostengünstigen und nachhaltigen Optionen.</p>
         </div>
-        <div>
-            <h3>Gesellschaftlicher Nutzen</h3>
-            <ul>
-                <li>Reduzierung von Emissionen</li>
-                <li>Entlastung des Stadtverkehrs</li>
-                <li>Förderung nachhaltiger Mobilitätskonzepte</li>
-            </ul>
+
+        <div class="card">
+            <h3>Für Städte</h3>
+            <p>Reduzierung von Verkehrsaufkommen und Emissionen im urbanen Raum.</p>
+        </div>
+
+        <div class="card">
+            <h3>Für die Zukunft</h3>
+            <p>Ein skalierbares Mobilitätskonzept mit gesellschaftlichem Mehrwert.</p>
         </div>
     </div>
 </section>
 
-<section id="video">
+<section id="video" class="video">
     <h2>Pitch-Video</h2>
     <p>
-        Das Pitch-Video stellt Problem, Lösung und Ziel von Move Easy
+        In unserem Pitch-Video stellen wir die Idee von Move Easy
         kompakt und verständlich vor.
     </p>
+
     <iframe src="https://www.youtube.com/embed/VIDEO_ID_HIER" allowfullscreen></iframe>
 </section>
 
 <section id="termin" class="cta">
     <h2>Termin vereinbaren</h2>
     <p>
-        Bei Interesse an Move Easy können Sie hier direkt
-        einen Termin mit dem Projektteam buchen.
+        Sie möchten mehr über Move Easy erfahren?
+        Vereinbaren Sie direkt einen Termin mit unserem Projektteam.
     </p>
 
     <a href="https://calendly.com/sherinkhetib/neues-meeting" target="_blank">
@@ -274,7 +264,7 @@
 </section>
 
 <footer>
-    © 2026 Move Easy · Projekt von Sherin Khetib & Bayan Ateyeh · HTW Saar
+    © 2026 Move Easy · Sherin Khetib & Bayan Ateyeh · HTW Saar
 </footer>
 
 </body>
