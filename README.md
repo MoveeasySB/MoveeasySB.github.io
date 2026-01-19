@@ -2,193 +2,188 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Move Easy – Sustainable Student Mobility</title>
+    <title>Move Easy – Nachhaltige Mobilität für Studierende</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
+        /* ===============================
+           Globale Variablen
+        =============================== */
         :root {
-            --primary: #020617;
-            --secondary: #0d9488;
-            --bg-light: #f8fafc;
-            --text-dark: #1e293b;
-            --text-muted: #64748b;
+            --color-primary: #2563eb;
+            --color-secondary: #10b981;
+            --color-bg: #f8fafc;
+            --color-white: #ffffff;
+            --color-text: #1e293b;
+            --color-text-light: #64748b;
+            --border-radius: 16px;
         }
 
         * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
             font-family: 'Inter', sans-serif;
         }
 
         body {
-            background: var(--bg-light);
-            color: var(--text-dark);
+            background-color: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.7;
         }
 
-        /* HERO */
+        /* ===============================
+           Header / Hero
+        =============================== */
         header {
-            background: linear-gradient(135deg, #020617, #0f172a);
-            color: white;
-            padding: 130px 20px;
+            background: linear-gradient(135deg, #eff6ff, #ecfeff);
+            padding: 100px 20px;
             text-align: center;
         }
 
         header h1 {
-            font-size: 60px;
+            font-size: 52px;
             font-weight: 700;
-            letter-spacing: -1px;
-            margin-bottom: 22px;
+            margin-bottom: 20px;
         }
 
         header p {
-            font-size: 22px;
-            max-width: 820px;
-            margin: auto;
-            color: #cbd5e1;
-            line-height: 1.6;
+            font-size: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: var(--color-text-light);
         }
 
-        /* NAV */
+        /* ===============================
+           Navigation
+        =============================== */
         nav {
-            background: white;
-            padding: 18px 0;
+            background-color: var(--color-white);
+            padding: 16px 0;
             text-align: center;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
             position: sticky;
             top: 0;
-            z-index: 20;
+            z-index: 10;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
         }
 
         nav a {
-            margin: 0 22px;
+            margin: 0 18px;
             text-decoration: none;
-            color: var(--primary);
             font-weight: 600;
+            color: var(--color-primary);
             font-size: 15px;
         }
 
         nav a:hover {
-            color: var(--secondary);
+            text-decoration: underline;
         }
 
-        /* SECTIONS */
+        /* ===============================
+           Sections
+        =============================== */
         section {
-            max-width: 1120px;
-            margin: 80px auto;
-            padding: 60px;
-            background: white;
-            border-radius: 26px;
-            box-shadow: 0 25px 60px rgba(0,0,0,0.06);
+            max-width: 1100px;
+            margin: 70px auto;
+            padding: 50px;
+            background-color: var(--color-white);
+            border-radius: var(--border-radius);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.05);
         }
 
-        h2 {
-            font-size: 38px;
-            margin-bottom: 26px;
-            letter-spacing: -0.5px;
+        section h2 {
+            font-size: 34px;
+            margin-bottom: 24px;
         }
 
-        h3 {
-            font-size: 20px;
-            color: var(--secondary);
-            margin-bottom: 12px;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.85;
-            color: var(--text-dark);
-        }
-
-        .muted {
-            color: var(--text-muted);
+        section p {
+            font-size: 17px;
+            margin-bottom: 16px;
         }
 
         .two-column {
             display: flex;
-            gap: 60px;
-            margin-top: 40px;
+            gap: 40px;
             flex-wrap: wrap;
+            margin-top: 30px;
         }
 
-        .two-column div {
+        .two-column > div {
             flex: 1;
             min-width: 280px;
         }
 
         ul {
-            padding-left: 22px;
+            padding-left: 20px;
         }
 
         li {
-            margin-bottom: 14px;
+            margin-bottom: 12px;
+        }
+
+        /* ===============================
+           Highlight Box
+        =============================== */
+        .highlight {
+            margin-top: 30px;
+            padding: 28px;
+            background-color: #f0fdf4;
+            border-left: 6px solid var(--color-secondary);
+            border-radius: 12px;
             font-size: 17px;
         }
 
-        .highlight-box {
-            margin-top: 45px;
-            background: linear-gradient(135deg, #f0fdfa, #ccfbf1);
-            padding: 34px;
-            border-radius: 20px;
-            border-left: 6px solid var(--secondary);
-            font-size: 18px;
-        }
-
+        /* ===============================
+           Video
+        =============================== */
         iframe {
             width: 100%;
-            height: 440px;
-            border-radius: 20px;
+            height: 420px;
+            border-radius: 14px;
             border: none;
-            margin-top: 35px;
+            margin-top: 25px;
         }
 
-        /* CTA */
-        .cta-section {
-            background: linear-gradient(135deg, #020617, #0f172a);
-            color: white;
+        /* ===============================
+           Call to Action
+        =============================== */
+        .cta {
             text-align: center;
-            padding: 100px 40px;
-            border-radius: 30px;
+            background: #f1f5f9;
         }
 
-        .cta-section h2 {
-            color: white;
-        }
-
-        .cta-section p {
-            color: #cbd5e1;
-        }
-
-        .cta-btn {
+        .cta a {
             display: inline-block;
-            margin-top: 36px;
-            background: var(--secondary);
+            margin-top: 25px;
+            padding: 16px 36px;
+            background-color: var(--color-primary);
             color: white;
-            padding: 20px 44px;
-            border-radius: 50px;
             text-decoration: none;
-            font-size: 18px;
+            border-radius: 40px;
+            font-size: 17px;
             font-weight: 600;
         }
 
-        .cta-btn:hover {
-            background: #0f766e;
+        .cta a:hover {
+            background-color: #1d4ed8;
         }
 
         .calendly-inline-widget {
-            margin-top: 50px;
-            border-radius: 24px;
+            margin-top: 40px;
+            border-radius: 14px;
             overflow: hidden;
         }
 
+        /* ===============================
+           Footer
+        =============================== */
         footer {
-            margin-top: 90px;
-            background: #020617;
-            color: #94a3b8;
             text-align: center;
-            padding: 45px 20px;
+            padding: 40px 20px;
+            color: var(--color-text-light);
             font-size: 14px;
         }
     </style>
@@ -199,78 +194,77 @@
 <header>
     <h1>Move Easy</h1>
     <p>
-        A digital mobility platform designed to make commuting to university  
-        simpler, more affordable and environmentally sustainable.
+        Eine digitale Plattform, die Studierenden hilft,
+        einfacher, günstiger und nachhaltiger zur Universität zu gelangen.
     </p>
 </header>
 
 <nav>
-    <a href="#idee">Concept</a>
-    <a href="#mehrwert">Value Proposition</a>
-    <a href="#video">Pitch</a>
-    <a href="#termin">Contact</a>
+    <a href="#idee">Geschäftsidee</a>
+    <a href="#mehrwert">Mehrwert</a>
+    <a href="#video">Pitch-Video</a>
+    <a href="#termin">Termin buchen</a>
 </nav>
 
 <section id="idee">
-    <h2>Our Concept</h2>
-    <p class="muted">
-        Daily commuting remains a major challenge for students — rising costs,
-        limited flexibility and environmental impact are key concerns.
-    </p>
-
+    <h2>Geschäftsidee</h2>
     <p>
-        <strong>Move Easy</strong> addresses this challenge by combining
-        car sharing, bike sharing and public transport information into one
-        centralized digital platform, complemented by dedicated university bus routes.
+        Viele Studierende pendeln täglich zur Universität und stehen dabei vor
+        Herausforderungen wie steigenden Kosten, Zeitverlust und fehlenden
+        nachhaltigen Alternativen.
+    </p>
+    <p>
+        <strong>Move Easy</strong> bündelt Carsharing, Bikesharing und Informationen
+        zum öffentlichen Nahverkehr auf einer zentralen Plattform und ergänzt diese
+        durch gezielte Busverbindungen zu Hochschulen.
     </p>
 
-    <div class="highlight-box">
-        <strong>Vision:</strong> To establish sustainable mobility as the standard
-        for students while actively reducing CO₂ emissions in urban environments.
+    <div class="highlight">
+        <strong>Vision:</strong> Nachhaltige Mobilität im studentischen Alltag
+        etablieren und den CO₂-Ausstoß langfristig reduzieren.
     </div>
 </section>
 
 <section id="mehrwert">
-    <h2>Value Proposition</h2>
+    <h2>Mehrwert von Move Easy</h2>
     <div class="two-column">
         <div>
-            <h3>For Students</h3>
+            <h3>Für Studierende</h3>
             <ul>
-                <li>Faster and simpler daily commuting</li>
-                <li>Lower transportation costs</li>
-                <li>Access to sustainable alternatives</li>
+                <li>Einfachere und schnellere Wege zur Universität</li>
+                <li>Kostengünstige Mobilitätslösungen</li>
+                <li>Umweltfreundliche Alternativen</li>
             </ul>
         </div>
         <div>
-            <h3>For Society</h3>
+            <h3>Gesellschaftlicher Nutzen</h3>
             <ul>
-                <li>Reduced traffic congestion</li>
-                <li>Lower environmental impact</li>
-                <li>Future-oriented mobility solutions</li>
+                <li>Reduzierung von Emissionen</li>
+                <li>Entlastung des Stadtverkehrs</li>
+                <li>Förderung nachhaltiger Mobilitätskonzepte</li>
             </ul>
         </div>
     </div>
 </section>
 
 <section id="video">
-    <h2>Pitch Video</h2>
-    <p class="muted">
-        This short pitch introduces the problem, our solution and the impact of Move Easy.
+    <h2>Pitch-Video</h2>
+    <p>
+        Das Pitch-Video stellt Problem, Lösung und Ziel von Move Easy
+        kompakt und verständlich vor.
     </p>
     <iframe src="https://www.youtube.com/embed/VIDEO_ID_HIER" allowfullscreen></iframe>
 </section>
 
-<section id="termin" class="cta-section">
-    <h2>Schedule a Meeting</h2>
+<section id="termin" class="cta">
+    <h2>Termin vereinbaren</h2>
     <p>
-        Interested in Move Easy?  
-        Book a meeting directly with our project team.
+        Bei Interesse an Move Easy können Sie hier direkt
+        einen Termin mit dem Projektteam buchen.
     </p>
 
-    <a class="cta-btn"
-       href="https://calendly.com/sherinkhetib/neues-meeting"
-       target="_blank">
-        Book an Appointment
+    <a href="https://calendly.com/sherinkhetib/neues-meeting" target="_blank">
+        Termin buchen
     </a>
 
     <div class="calendly-inline-widget"
@@ -280,7 +274,7 @@
 </section>
 
 <footer>
-    © 2026 Move Easy · Project by Sherin Khetib & Bayan Ateyeh · HTW Saar
+    © 2026 Move Easy · Projekt von Sherin Khetib & Bayan Ateyeh · HTW Saar
 </footer>
 
 </body>
