@@ -2,62 +2,46 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Move Easy – Smarter Umzug, weniger Stress</title>
+    <title>Move Easy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Calendly -->
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+   
 
     <style>
         body {
             margin: 0;
-            font-family: "Segoe UI", Arial, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             background: #f4f6f9;
             color: #222;
-            line-height: 1.6;
         }
 
-        /* HERO */
         header {
-            background: linear-gradient(135deg, #0a58ff, #003ecb);
+            background: #111;
             color: white;
-            padding: 90px 20px;
+            padding: 80px 20px;
             text-align: center;
         }
 
+        header img {
+            width: 180px;
+            margin-bottom: 20px;
+        }
+
         header h1 {
-            font-size: 52px;
-            margin-bottom: 15px;
+            font-size: 46px;
+            margin: 10px 0;
         }
 
         header p {
-            font-size: 22px;
-            max-width: 750px;
-            margin: 0 auto 30px;
-            opacity: 0.95;
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+            opacity: 0.9;
         }
 
-        .cta-btn {
-            display: inline-block;
-            background: #ffffff;
-            color: #0a58ff;
-            padding: 16px 32px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-size: 18px;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        .cta-btn:hover {
-            background: #e8eeff;
-        }
-
-        /* NAV */
         nav {
             background: #ffffff;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
             padding: 15px 0;
             text-align: center;
             position: sticky;
@@ -66,71 +50,93 @@
         }
 
         nav a {
-            margin: 0 18px;
+            margin: 0 15px;
             text-decoration: none;
             color: #111;
-            font-weight: 600;
+            font-weight: bold;
         }
 
         nav a:hover {
             color: #0a58ff;
         }
 
-        /* SECTIONS */
         section {
-            max-width: 1100px;
-            margin: 60px auto;
-            padding: 40px;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 30px;
             background: white;
-            border-radius: 14px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.08);
         }
 
         h2 {
-            font-size: 34px;
-            margin-bottom: 20px;
             color: #0a58ff;
+            margin-bottom: 15px;
+            font-size: 30px;
         }
 
-        /* CARDS */
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 25px;
-            margin-top: 30px;
+        p {
+            font-size: 17px;
+            line-height: 1.6;
         }
 
-        .card {
-            background: #f7f9ff;
-            padding: 25px;
-            border-radius: 12px;
-            border-left: 5px solid #0a58ff;
-        }
-
-        .card h3 {
-            margin-top: 0;
-        }
-
-        /* VIDEO */
-        iframe {
-            width: 100%;
-            height: 420px;
-            border-radius: 12px;
-            border: none;
+        .two-column {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
             margin-top: 20px;
         }
 
-        .video-cta {
-            text-align: center;
-            margin-top: 30px;
+        .two-column div {
+            flex: 1;
+            min-width: 300px;
         }
 
-        /* FOOTER */
+        ul {
+            padding-left: 18px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .highlight-box {
+            background: #eef3ff;
+            padding: 20px;
+            border-left: 5px solid #0a58ff;
+            border-radius: 5px;
+            margin-top: 25px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 360px;
+            border-radius: 10px;
+            margin-top: 20px;
+            border: none;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background: #0a58ff;
+            color: white;
+            padding: 14px 26px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .cta-btn:hover {
+            background: #003ecb;
+        }
+
         footer {
             background: #111;
             color: #bbb;
             text-align: center;
-            padding: 35px 10px;
+            padding: 30px 10px;
+            margin-top: 50px;
         }
 
         footer a {
@@ -139,116 +145,81 @@
         }
     </style>
 </head>
-
 <body>
 
-<!-- HERO -->
 <header>
-    <h1>Move Easy</h1>
-    <p>
-        Die digitale Plattform für einen stressfreien, transparenten und effizienten Umzug –
-        von der Planung bis zur Durchführung.
-    </p>
+    <img src="logo.png" alt="Startup Logo">
+    <h1> Move Easy </h1>
+    <p>Unsere Lösung vereinfacht Prozesse, spart Zeit und schafft echten Mehrwert.</p>
 
-    <a class="cta-btn"
-       href="#"
-       onclick="Calendly.initPopupWidget({url: 'https://calendly.com/deinname/erstgespraech'}); return false;">
-        Jetzt Gespräch vereinbaren
-    </a>
+    
 </header>
 
-<!-- NAV -->
 <nav>
-    <a href="#idee">Idee</a>
+    <a href="#idee">Geschäftsidee</a>
     <a href="#vorteile">Vorteile</a>
     <a href="#video">Pitch-Video</a>
     <a href="#calendly">Kontakt</a>
 </nav>
 
-<!-- IDEE -->
 <section id="idee">
     <h2>Unsere Geschäftsidee</h2>
     <p>
-        Umzüge sind für viele Menschen stressig, unübersichtlich und zeitintensiv.
-        <strong>Move Easy</strong> löst dieses Problem mit einer digitalen Plattform,
-        die alle Schritte eines Umzugs zentral bündelt und transparent steuert.
+        Unsere Startup-Idee adressiert ein konkretes Problem im Markt. Viele Nutzer
+        kämpfen mit ineffizienten Abläufen und fehlender Transparenz. Genau hier
+        setzt unsere digitale Lösung an.
     </p>
 
-    <div class="cards">
-        <div class="card">
-            <h3>Problem</h3>
-            <p>Hoher Organisationsaufwand, fehlende Transparenz, unzuverlässige Anbieter.</p>
-        </div>
-        <div class="card">
-            <h3>Lösung</h3>
-            <p>Eine zentrale Plattform zur Planung, Koordination und Buchung von Umzugsservices.</p>
-        </div>
-        <div class="card">
-            <h3>Vision</h3>
-            <p>Der Umzug soll so einfach sein wie das Buchen einer Reise.</p>
-        </div>
+    <div class="highlight-box">
+        <strong>Vision:</strong> Eine benutzerfreundliche Plattform, die Abläufe
+        vereinfacht und nachhaltige Entscheidungen ermöglicht.
     </div>
 </section>
 
-<!-- VORTEILE -->
 <section id="vorteile">
-    <h2>Mehrwert & Vorteile</h2>
-
-    <div class="cards">
-        <div class="card">
+    <h2>Vorteile auf einen Blick</h2>
+    <div class="two-column">
+        <div>
             <h3>Für Nutzer</h3>
-            <p>✔ Zeitersparnis<br>✔ Klare Kostenübersicht<br>✔ Weniger Stress</p>
+            <ul>
+                <li>Einfache Bedienung</li>
+                <li>Zeit- und Kostenersparnis</li>
+                <li>Hohe Transparenz</li>
+            </ul>
         </div>
-        <div class="card">
-            <h3>Für Unternehmen</h3>
-            <p>✔ Digitale Auftragsabwicklung<br>✔ Skalierbarkeit<br>✔ Neue Kundenzugänge</p>
-        </div>
-        <div class="card">
-            <h3>Für Investoren</h3>
-            <p>✔ Wachsender Markt<br>✔ Plattformmodell<br>✔ Hohe Skalierbarkeit</p>
+        <div>
+            <h3>Für Stakeholder</h3>
+            <ul>
+                <li>Skalierbares Geschäftsmodell</li>
+                <li>Klares Nutzenversprechen</li>
+                <li>Marktpotenzial</li>
+            </ul>
         </div>
     </div>
 </section>
 
-<!-- VIDEO -->
 <section id="video">
-    <h2>Pitch-Video</h2>
-    <p>
-        In unserem maximal 45-sekündigen Pitch-Video erklären wir Zielgruppe,
-        Problem, Lösung und unseren Mehrwert – inklusive klarer Handlungsaufforderung.
-    </p>
-
-    <!-- YouTube Video -->
+    <h2>MVP Pitch-Video</h2>
+    <p>Das folgende Video stellt unsere Idee, das Problem und die Lösung kompakt vor.</p>
     <iframe src="https://www.youtube.com/embed/VIDEO_ID_HIER" allowfullscreen></iframe>
-
-    <div class="video-cta">
-        <a class="cta-btn"
-           href="#"
-           onclick="Calendly.initPopupWidget({url: 'https://calendly.com/deinname/erstgespraech'}); return false;">
-            Jetzt Termin nach dem Pitch buchen
-        </a>
-    </div>
 </section>
 
-<!-- CALENDLY -->
 <section id="calendly">
     <h2>Termin buchen</h2>
     <p>
-        Sie möchten mehr erfahren oder Feedback geben?
-        Buchen Sie direkt einen Termin mit dem Projektteam.
+        Vereinbaren Sie direkt einen Termin mit dem Projektleiter oder Projektteam.
     </p>
 
+    <!-- Calendly Inline Widget -->
     <div class="calendly-inline-widget"
          data-url="https://calendly.com/deinname/erstgespraech"
-         style="min-width:320px;height:650px;">
+         style="min-width:320px;height:630px;">
     </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
-    <p>
-        &copy; 2026 – Move Easy ·
-        <a href="mailto:kontakt@moveeasy.de">kontakt@moveeasy.de</a>
+    <p>&copy; 2026 – Startup Name ·
+        <a href="mailto:kontakt@startup.de">kontakt@startup.de</a>
     </p>
 </footer>
 
