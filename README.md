@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
@@ -12,6 +13,7 @@
             color: #1f2933;
         }
 
+        /* ===== HEADER ===== */
         header {
             background: linear-gradient(135deg, #0f766e, #14b8a6);
             color: white;
@@ -31,28 +33,51 @@
             opacity: 0.95;
         }
 
+        /* ===== NAVIGATION MIT LOGO ===== */
         nav {
             background: #ffffff;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            padding: 15px 0;
-            text-align: center;
             position: sticky;
             top: 0;
             z-index: 10;
         }
 
-        nav a {
-            margin: 0 18px;
+        .navbar {
+            max-width: 1050px;
+            margin: 0 auto;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: #0f766e;
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        .brand img {
+            height: 50px; /* Logo-Größe – könnt ihr später ändern */
+        }
+
+        .nav-links a {
+            margin-left: 20px;
             text-decoration: none;
             color: #0f766e;
             font-weight: 600;
             font-size: 16px;
         }
 
-        nav a:hover {
+        .nav-links a:hover {
             text-decoration: underline;
         }
 
+        /* ===== CONTENT ===== */
         section {
             max-width: 1050px;
             margin: 50px auto;
@@ -100,7 +125,6 @@
             border-left: 6px solid #14b8a6;
             border-radius: 8px;
             margin-top: 30px;
-            font-size: 17px;
         }
 
         iframe {
@@ -111,6 +135,7 @@
             border: none;
         }
 
+        /* ===== CALL TO ACTION ===== */
         .cta-section {
             background: linear-gradient(135deg, #0f766e, #14b8a6);
             color: white;
@@ -139,6 +164,7 @@
             background: #f0fdfa;
         }
 
+        /* ===== FOOTER ===== */
         footer {
             background: #111827;
             color: #9ca3af;
@@ -161,10 +187,19 @@
 </header>
 
 <nav>
-    <a href="#idee">Geschäftsidee</a>
-    <a href="#mehrwert">Mehrwert</a>
-    <a href="#video">Pitch-Video</a>
-    <a href="#kontakt">Kontakt</a>
+    <div class="navbar">
+        <a href="#" class="brand">
+            <img src="logo.png" alt="Move Easy Logo">
+            <span>Move Easy</span>
+        </a>
+
+        <div class="nav-links">
+            <a href="#idee">Geschäftsidee</a>
+            <a href="#mehrwert">Mehrwert</a>
+            <a href="#video">Pitch-Video</a>
+            <a href="#kontakt">Kontakt</a>
+        </div>
+    </div>
 </nav>
 
 <section id="idee">
