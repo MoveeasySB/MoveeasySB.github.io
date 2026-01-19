@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Startup Landing Page</title>
+    <title>Move Easy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    
