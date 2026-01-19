@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 
 
-}
-
 
 
 
@@ -35,18 +33,6 @@ text-decoration: none;
 <header>
 
 
-<!-- Optional: Logo -->
-
-
-<!-- <img src="logo.png" alt="Startup Logo"> -->
-
-
-<h1>Unsere Startup‑Vision</h1>
-
-
-<p>Wir lösen ein echtes Problem mit einer skalierbaren, digitalen Lösung und schaffen messbaren Mehrwert für Nutzer und Stakeholder.</p>
-
-
 <h1>Eure Startup-Idee</h1>
 
 
@@ -61,6 +47,15 @@ für Nutzer und Stakeholder.
 
 </p>
 
+
+<img src="logo.png" alt="Startup Logo">
+
+
+<h1>Startup Name</h1>
+
+
+<p>Unsere Lösung vereinfacht Prozesse, spart Zeit und schafft echten Mehrwert.</p>
+
 <a class="cta-btn" href="#calendly">Termin vereinbaren</a>
 
 </header>
@@ -72,15 +67,6 @@ für Nutzer und Stakeholder.
 <nav>
 
 
-<a href="#idee">Geschäftsidee</a>
-
-
-<a href="#vorteile">Vorteile</a>
-
-
-<a href="#video">Pitch‑Video</a>
-
-
 <a href="#idee">Idee</a>
 
 
@@ -88,6 +74,15 @@ für Nutzer und Stakeholder.
 
 
 <a href="#video">Pitch</a>
+
+
+<a href="#idee">Geschäftsidee</a>
+
+
+<a href="#vorteile">Vorteile</a>
+
+
+<a href="#video">Pitch-Video</a>
 
 <a href="#calendly">Kontakt</a>
 
@@ -100,24 +95,12 @@ für Nutzer und Stakeholder.
 <section id="idee">
 
 
-<h2>Unsere Geschäftsidee</h2>
-
-
 <h2>Die Geschäftsidee</h2>
 
+
+<h2>Unsere Geschäftsidee</h2>
+
 <p>
-
-
-Unsere Startup‑Idee adressiert ein zentrales Problem im Alltag bzw. im Markt:
-
-
-ineffiziente Prozesse, fehlende Transparenz und unnötiger Zeitaufwand.
-
-
-Mit unserer Lösung bieten wir eine benutzerfreundliche Plattform, die
-
-
-Prozesse vereinfacht, automatisiert und nachhaltig verbessert.
 
 
 Unser Startup löst ein konkretes Problem, das viele Menschen oder Unternehmen
@@ -128,6 +111,15 @@ täglich betrifft. Durch eine digitale, skalierbare Lösung vereinfachen wir
 
 Prozesse, sparen Zeit und schaffen Transparenz.
 
+
+Unsere Startup-Idee adressiert ein konkretes Problem im Markt. Viele Nutzer
+
+
+kämpfen mit ineffizienten Abläufen und fehlender Transparenz. Genau hier
+
+
+setzt unsere digitale Lösung an.
+
 </p>
 
 
@@ -137,16 +129,16 @@ Prozesse, sparen Zeit und schaffen Transparenz.
 <div class="highlight-box">
 
 
-<strong>Vision:</strong> Eine digitale Lösung, die Menschen Zeit spart,
-
-
-Kosten reduziert und smartere Entscheidungen ermöglicht.
-
-
 <strong>Vision:</strong> Wir wollen eine intuitive Plattform schaffen,
 
 
 die nachhaltige Effizienz und bessere Entscheidungen ermöglicht.
+
+
+<strong>Vision:</strong> Eine benutzerfreundliche Plattform, die Abläufe
+
+
+vereinfacht und nachhaltige Entscheidungen ermöglicht.
 
 </div>
 
@@ -159,31 +151,22 @@ die nachhaltige Effizienz und bessere Entscheidungen ermöglicht.
 <section id="vorteile">
 
 
-<h2>Warum unser Startup?</h2>
-
-
 <h2>Warum diese Lösung?</h2>
+
+
+<h2>Vorteile auf einen Blick</h2>
 
 <div class="two-column">
 
 <div>
 
 
-<h3>Für Nutzer</h3>
-
-
 <h3>Nutzen für Anwender</h3>
 
+
+<h3>Für Nutzer</h3>
+
 <ul>
-
-
-<li>Einfache und intuitive Bedienung</li>
-
-
-<li>Zeit- und Kostenersparnis</li>
-
-
-<li>Hohe Transparenz und Kontrolle</li>
 
 
 <li>Intuitive Benutzeroberfläche</li>
@@ -194,6 +177,15 @@ die nachhaltige Effizienz und bessere Entscheidungen ermöglicht.
 
 <li>Klare Übersicht & Kontrolle</li>
 
+
+<li>Einfache Bedienung</li>
+
+
+<li>Zeit- und Kostenersparnis</li>
+
+
+<li>Hohe Transparenz</li>
+
 </ul>
 
 </div>
@@ -201,10 +193,10 @@ die nachhaltige Effizienz und bessere Entscheidungen ermöglicht.
 <div>
 
 
-<h3>Für Stakeholder</h3>
-
-
 <h3>Nutzen für Stakeholder</h3>
+
+
+<h3>Für Stakeholder</h3>
 
 <ul>
 
@@ -213,10 +205,10 @@ die nachhaltige Effizienz und bessere Entscheidungen ermöglicht.
 <li>Klares Nutzenversprechen</li>
 
 
-<li>Großes Marktpotenzial</li>
-
-
 <li>Attraktives Marktpotenzial</li>
+
+
+<li>Marktpotenzial</li>
 
 </ul>
 
@@ -224,20 +216,11 @@ die nachhaltige Effizienz und bessere Entscheidungen ermöglicht.
 
 </div>
 
-</section>
-
-
+@@ -62,9 +67,7 @@ die nachhaltige Effizienz und bessere Entscheidungen ermöglicht.
 
 
 
 <section id="video">
-
-
-<h2>MVP Pitch‑Video</h2>
-
-
-<p>In diesem Video stellen wir unsere Idee, das Problem und unsere Lösung kompakt vor:</p>
-
 
 <h2>MVP Pitch-Video</h2>
 
@@ -251,54 +234,30 @@ In diesem kurzen Pitch erklären wir Problem, Lösung und Vision unseres Startup
 </p>
 
 
+<p>Das folgende Video stellt unsere Idee, das Problem und die Lösung kompakt vor.</p>
 
 
 
-
-<!-- YouTube Embed – HIER EURE VIDEO-ID EINSETZEN -->
-
-
-<iframe src="https://www.youtube.com/embed/VIDEO_ID_HIER"
-
-
-title="Pitch Video"
-
-
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-
-
-allowfullscreen>
-
-
-</iframe>
 
 
 <iframe src="https://www.youtube.com/embed/VIDEO_ID_HIER" allowfullscreen></iframe>
 
-</section>
-
-
-
-
+@@ -74,14 +77,15 @@ In diesem kurzen Pitch erklären wir Problem, Lösung und Vision unseres Startup
 
 <section id="calendly">
-
-
-<h2>Termin vereinbaren</h2>
-
 
 <h2>Termin buchen</h2>
 
 <p>
 
 
+Interesse geweckt? Vereinbaren Sie direkt einen Gesprächstermin mit dem Projektteam.
+
+
 Sie möchten mehr erfahren oder mit dem Projektteam sprechen?
 
 
 Buchen Sie direkt einen Termin über Calendly.
-
-
-Interesse geweckt? Vereinbaren Sie direkt einen Gesprächstermin mit dem Projektteam.
 
 </p>
 
@@ -307,25 +266,22 @@ Interesse geweckt? Vereinbaren Sie direkt einen Gesprächstermin mit dem Projekt
 
 
 
-<!-- Variante 1: Call-to-Action Link -->
+<a class="cta-btn" href="https://calendly.com/IHRLINK" target="_blank">Termin über Calendly buchen</a>
 
 
 <a class="cta-btn" href="https://calendly.com/IHRLINK" target="_blank">Termin buchen</a>
 
 
-<a class="cta-btn" href="https://calendly.com/IHRLINK" target="_blank">Termin über Calendly buchen</a>
 
 
-
-
-
-
-<!-- Variante 2: Direkt eingebetteter Calendly‑Kalender -->
-
-
-<iframe src="https://calendly.com/IHRLINK" style="height: 600px; margin-top: 30px;"></iframe>
 
 
 <iframe src="https://calendly.com/IHRLINK" style="height: 650px;"></iframe>
+
+
+<iframe src="https://calendly.com/IHRLINK" style="height: 600px;"></iframe>
+
+</section>
+
 
 
