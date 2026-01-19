@@ -154,11 +154,6 @@
 <body>
 
 <header>
-    <nav>
-    <div style="display: flex; align-items: center; gap: 12px;">
-        <img src="logo.png" alt="GreenSwap Logo" style="height: 110px;">
-        <span>GreenSwap</span>
-    </div>
     <h1>Move Easy</h1>
     <p>
         Die digitale Mobilitätsplattform für Studierende –  
