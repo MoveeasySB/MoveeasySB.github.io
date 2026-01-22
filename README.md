@@ -13,6 +13,53 @@
             color: #1f2933;
         }
 
+        /* NAVIGATION */
+        nav {
+            background: #ffffff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 14px 30px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-area img {
+            height: 60px; /* LOGO-GRÖSSE HIER ÄNDERN */
+        }
+
+        .logo-area span {
+            font-size: 22px;
+            font-weight: 700;
+            color: #0f766e;
+        }
+
+        nav a {
+            margin-left: 22px;
+            text-decoration: none;
+            color: #0f766e;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* HEADER */
         header {
             background: linear-gradient(135deg, #0f766e, #14b8a6);
             color: white;
@@ -30,27 +77,6 @@
             max-width: 750px;
             margin: 0 auto;
             opacity: 0.95;
-        }
-
-        nav {
-            background: #ffffff;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            padding: 15px 30px;
-            position: sticky;
-            top: 0;
-            z-index: 10;
-        }
-
-        nav a {
-            margin: 0 18px;
-            text-decoration: none;
-            color: #0f766e;
-            font-weight: 600;
-            font-size: 16px;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
         }
 
         section {
@@ -152,6 +178,22 @@
 
 <body>
 
+<nav>
+    <div class="nav-container">
+        <div class="logo-area">
+            <img src="moveeasy-logo.png" alt="Move Easy Logo">
+            <span>Move Easy</span>
+        </div>
+
+        <div>
+            <a href="#idee">Geschäftsidee</a>
+            <a href="#mehrwert">Mehrwert</a>
+            <a href="#video">Pitch-Video</a>
+            <a href="#kontakt">Kontakt</a>
+        </div>
+    </div>
+</nav>
+
 <header>
     <h1>Move Easy</h1>
     <p>
@@ -160,27 +202,12 @@
     </p>
 </header>
 
-<!-- NAV MIT LOGO (EINFACH & SICHER) -->
-<nav>
-    <div style="display: flex; align-items: center; gap: 12px;">
-        <img src="moveeasy-logo.png" alt="Move Easy Logo" style="height: 60px;">
-        <span style="font-weight: 600; color: #0f766e;">Move Easy</span>
-    </div>
-
-    <div style="margin-top: 10px;">
-        <a href="#idee">Geschäftsidee</a>
-        <a href="#mehrwert">Mehrwert</a>
-        <a href="#video">Pitch-Video</a>
-        <a href="#kontakt">Kontakt</a>
-    </div>
-</nav>
-
 <section id="idee">
     <h2>Unsere Geschäftsidee</h2>
     <p>
         Viele Studierende pendeln täglich zur Universität und stehen dabei vor
         Herausforderungen wie hohen Kosten, Zeitverlust und fehlenden nachhaltigen
-        Alternativen. Genau hier setzt <strong>Move Easy</strong> an.
+        Alternativen.
     </p>
 
     <p>
@@ -220,10 +247,6 @@
 
 <section id="video">
     <h2>Pitch-Video</h2>
-    <p>
-        In unserem Pitch-Video stellen wir das Problem, unsere Lösung
-        und den Nutzen von Move Easy kompakt vor.
-    </p>
     <iframe src="https://www.youtube.com/embed/VIDEO_ID_HIER" allowfullscreen></iframe>
 </section>
 
@@ -245,3 +268,4 @@
 
 </body>
 </html>
+
