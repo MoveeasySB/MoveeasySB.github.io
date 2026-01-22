@@ -182,11 +182,11 @@
 
 <nav>
     <!-- LOGO -->
-    <div class="nav-logo">
-        <img src="moveeasy-logo.png" alt="Move Easy Logo">
-        <span>Move Easy</span>
+   <nav>
+    <div style="display: flex; align-items: center; gap: 12px;">
+        <img src="moveeasy-logo.png" alt="Move Easy Logo" style="height: 110px;">
+        <span style="font-weight: 600; color: #0f766e;">Move Easy</span>
     </div>
-
     <!-- NAVIGATION -->
     <div class="nav-links">
         <a href="#idee">Geschäftsidee</a>
