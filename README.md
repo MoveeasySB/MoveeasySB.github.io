@@ -153,10 +153,7 @@
 <body>
 
 <header>
-    <div style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-bottom: 15px;">
-        <img src="moveeasy-logo.png" alt="Move Easy Logo" style="height: 80px; width: auto;">
-        <h1 style="margin: 0;">Move Easy</h1>
-    </div>
+    <h1>Move Easy</h1>
     <p>
         Die digitale Mobilitätsplattform für Studierende –  
         einfacher, günstiger und nachhaltiger zur Universität.
