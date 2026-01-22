@@ -18,19 +18,6 @@
             color: white;
             padding: 90px 20px;
             text-align: center;
-            position: relative; /* nötig für Logo */
-        }
-
-        /* LOGO */
-        .logo {
-            position: absolute;
-            top: 25px;
-            left: 30px;
-        }
-
-        .logo img {
-            height: 55px;
-            width: auto;
         }
 
         header h1 {
@@ -48,14 +35,33 @@
         nav {
             background: #ffffff;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            padding: 15px 0;
-            text-align: center;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             position: sticky;
             top: 0;
             z-index: 10;
         }
 
-        nav a {
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .nav-logo img {
+            height: 55px;
+            width: auto;
+        }
+
+        .nav-logo span {
+            font-weight: 600;
+            color: #0f766e;
+            font-size: 18px;
+        }
+
+        .nav-links a {
             margin: 0 18px;
             text-decoration: none;
             color: #0f766e;
@@ -63,7 +69,7 @@
             font-size: 16px;
         }
 
-        nav a:hover {
+        .nav-links a:hover {
             text-decoration: underline;
         }
 
@@ -167,11 +173,6 @@
 <body>
 
 <header>
-    <!-- LOGO -->
-    <div class="logo">
-        <img src="moveeasy-logo.png" alt="Move Easy Logo">
-    </div>
-
     <h1>Move Easy</h1>
     <p>
         Die digitale Mobilitätsplattform für Studierende –  
@@ -180,10 +181,19 @@
 </header>
 
 <nav>
-    <a href="#idee">Geschäftsidee</a>
-    <a href="#mehrwert">Mehrwert</a>
-    <a href="#video">Pitch-Video</a>
-    <a href="#kontakt">Kontakt</a>
+    <!-- LOGO -->
+    <div class="nav-logo">
+        <img src="moveeasy-logo.png" alt="Move Easy Logo">
+        <span>Move Easy</span>
+    </div>
+
+    <!-- NAVIGATION -->
+    <div class="nav-links">
+        <a href="#idee">Geschäftsidee</a>
+        <a href="#mehrwert">Mehrwert</a>
+        <a href="#video">Pitch-Video</a>
+        <a href="#kontakt">Kontakt</a>
+    </div>
 </nav>
 
 <section id="idee">
