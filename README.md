@@ -183,7 +183,8 @@
 <nav>
     <!-- LOGO -->
     <div class="nav-logo">
-        <img src="moveeasy-logo.png" alt="Move Easy Logo">
+        <img src="<img width="1024" height="1024" alt="moveeasy-logo png" src="https://github.com/user-attachments/assets/6f15ce9e-35d4-4bea-9b6f-20e18ff48cc6" />
+" alt="Move Easy Logo">
         <span>Move Easy</span>
     </div>
 
