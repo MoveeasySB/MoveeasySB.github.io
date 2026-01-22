@@ -163,8 +163,16 @@
 
 <nav>
     <div style="display: flex; align-items: center; gap: 12px;">
-        <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height: 110px;">
+        <img src="moveeasy-logo.png" alt="Move Easy Logo" style="height: 110px;">
     </div>
+
+    <div style="margin-top: 10px;">
+        <a href="#idee">Geschäftsidee</a>
+        <a href="#mehrwert">Mehrwert</a>
+        <a href="#video">Pitch-Video</a>
+        <a href="#kontakt">Kontakt</a>
+    </div>
+</nav>
 
     <div style="margin-top: 10px;">
         <a href="#idee">Geschäftsidee</a>
