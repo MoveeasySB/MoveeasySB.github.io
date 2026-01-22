@@ -170,6 +170,13 @@
     </style>
 </head>
 
+<nav>
+    <!-- LOGO -->
+    <div class="nav-logo">
+        <img src="moveeasy-logo.png" alt="Move Easy Logo">
+        <span>Move Easy</span>
+    </div>
+
 <body>
 
 <header>
