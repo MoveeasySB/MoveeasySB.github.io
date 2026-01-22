@@ -166,7 +166,7 @@
         <img src="moveeasy-logo.png" alt="Move Easy Logo" style="height: 110px;">
     </div>
 
-    <div style="margin-top: 50px;">
+    <div style="margin-top: 20px;">
         <a href="#idee">Geschäftsidee</a>
         <a href="#mehrwert">Mehrwert</a>
         <a href="#video">Pitch-Video</a>
