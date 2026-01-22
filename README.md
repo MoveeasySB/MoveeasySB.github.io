@@ -36,32 +36,12 @@
             background: #ffffff;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
             padding: 15px 30px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
             position: sticky;
             top: 0;
             z-index: 10;
         }
 
-        .nav-logo {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .nav-logo img {
-            height: 55px;
-            width: auto;
-        }
-
-        .nav-logo span {
-            font-weight: 600;
-            color: #0f766e;
-            font-size: 18px;
-        }
-
-        .nav-links a {
+        nav a {
             margin: 0 18px;
             text-decoration: none;
             color: #0f766e;
@@ -69,7 +49,7 @@
             font-size: 16px;
         }
 
-        .nav-links a:hover {
+        nav a:hover {
             text-decoration: underline;
         }
 
@@ -170,13 +150,6 @@
     </style>
 </head>
 
-<nav>
-    <!-- LOGO -->
-    <div class="nav-logo">
-        <img src="moveeasy-logo.png" alt="Move Easy Logo">
-        <span>Move Easy</span>
-    </div>
-
 <body>
 
 <header>
@@ -187,15 +160,13 @@
     </p>
 </header>
 
+
 <nav>
-    <!-- LOGO -->
-    <div class="nav-logo">
-        <img src="moveeasy-logo.png" alt="Move Easy Logo">
-        <span>Move Easy</span>
+    <div style="display: flex; align-items: center; gap: 12px;">
+        <img src="moveeasy-logo.png" alt="Move Easy Logo" style="height: 110px;">  
     </div>
 
-    <!-- NAVIGATION -->
-    <div class="nav-links">
+    <div style="margin-top: 10px;">
         <a href="#idee">Geschäftsidee</a>
         <a href="#mehrwert">Mehrwert</a>
         <a href="#video">Pitch-Video</a>
