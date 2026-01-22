@@ -160,10 +160,10 @@
     </p>
 </header>
 
-<!-- NAV MIT LOGO (EINFACH & SICHER) -->
+
 <nav>
     <div style="display: flex; align-items: center; gap: 12px;">
-        <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height: 60px;">
+        <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height: 110px;">
     </div>
 
     <div style="margin-top: 10px;">
