@@ -36,7 +36,8 @@
         nav {
             background: #ffffff;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            padding: 15px 30px;
+            padding: 15px 0;
+            text-align: center;
             position: sticky;
             top: 0;
             z-index: 10;
@@ -161,19 +162,11 @@
     </p>
 </header>
 
-<!-- NAV MIT LOGO (EINFACH & SICHER) -->
 <nav>
-    <div style="display: flex; align-items: center; gap: 12px;">
-        <img src="moveeasy-logo.png" alt="Move Easy Logo" style="height: 60px;">
-        <span style="font-weight: 600; color: #0f766e;">Move Easy</span>
-    </div>
-
-    <div style="margin-top: 10px;">
-        <a href="#idee">Geschäftsidee</a>
-        <a href="#mehrwert">Mehrwert</a>
-        <a href="#video">Pitch-Video</a>
-        <a href="#kontakt">Kontakt</a>
-    </div>
+    <a href="#idee">Geschäftsidee</a>
+    <a href="#mehrwert">Mehrwert</a>
+    <a href="#video">Pitch-Video</a>
+    <a href="#kontakt">Kontakt</a>
 </nav>
 
 <section id="idee">
