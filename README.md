@@ -1,3 +1,4 @@
+
 <html lang="de">
 <head>
     <meta charset="UTF-8">
@@ -17,6 +18,19 @@
             color: white;
             padding: 90px 20px;
             text-align: center;
+            position: relative; /* nötig für Logo */
+        }
+
+        /* LOGO */
+        .logo {
+            position: absolute;
+            top: 25px;
+            left: 30px;
+        }
+
+        .logo img {
+            height: 55px;
+            width: auto;
         }
 
         header h1 {
@@ -153,6 +167,11 @@
 <body>
 
 <header>
+    <!-- LOGO -->
+    <div class="logo">
+        <img src="moveeasy-logo.png" alt="Move Easy Logo">
+    </div>
+
     <h1>Move Easy</h1>
     <p>
         Die digitale Mobilitätsplattform für Studierende –  
