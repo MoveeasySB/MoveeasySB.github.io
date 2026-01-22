@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
@@ -16,13 +16,27 @@
         header {
             background: linear-gradient(135deg, #0f766e, #14b8a6);
             color: white;
-            padding: 90px 20px;
+            padding: 80px 20px;
             text-align: center;
+        }
+
+        /* Container für Logo und H1 nebeneinander */
+        .logo-title-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px; /* Abstand zwischen Logo und Text */
+            margin-bottom: 15px;
         }
 
         header h1 {
             font-size: 52px;
-            margin-bottom: 15px;
+            margin: 0; /* Margin entfernt für bessere Zentrierung zum Logo */
+        }
+
+        header .header-logo {
+            height: 70px; /* Größe des Logos im Header */
+            width: auto;
         }
 
         header p {
@@ -39,6 +53,8 @@
             position: sticky;
             top: 0;
             z-index: 10;
+            display: flex;
+            justify-content: center; /* Zentriert die Links in der Nav */
         }
 
         nav a {
@@ -153,33 +169,21 @@
 <body>
 
 <header>
-    <h1>Move Easy</h1>
+    <div class="logo-title-container">
+        <img src="moveeasy-logo.png" alt="Move Easy Logo" class="header-logo">
+        <h1>Move Easy</h1>
+    </div>
     <p>
         Die digitale Mobilitätsplattform für Studierende –  
         einfacher, günstiger und nachhaltiger zur Universität.
     </p>
 </header>
 
-
 <nav>
-    <div style="display: flex; align-items: center; gap: 12px;">
-        <img src="moveeasy-logo.png" alt="Move Easy Logo" style="height: 110px;">
-    </div>
-
-    <div style="margin-top: 20px;">
-        <a href="#idee">Geschäftsidee</a>
-        <a href="#mehrwert">Mehrwert</a>
-        <a href="#video">Pitch-Video</a>
-        <a href="#kontakt">Kontakt</a>
-    </div>
-</nav>
-
-    <div style="margin-top: 10px;">
-        <a href="#idee">Geschäftsidee</a>
-        <a href="#mehrwert">Mehrwert</a>
-        <a href="#video">Pitch-Video</a>
-        <a href="#kontakt">Kontakt</a>
-    </div>
+    <a href="#idee">Geschäftsidee</a>
+    <a href="#mehrwert">Mehrwert</a>
+    <a href="#video">Pitch-Video</a>
+    <a href="#kontakt">Kontakt</a>
 </nav>
 
 <section id="idee">
@@ -219,37 +223,3 @@
             <ul>
                 <li>Reduktion von Verkehr und Emissionen</li>
                 <li>Förderung nachhaltiger Mobilitätskonzepte</li>
-                <li>Innovative Lösung mit Zukunftspotenzial</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<section id="video">
-    <h2>Pitch-Video</h2>
-    <p>
-        In unserem Pitch-Video stellen wir das Problem, unsere Lösung
-        und den Nutzen von Move Easy kompakt vor.
-    </p>
-    <iframe src="https://www.youtube.com/embed/VIDEO_ID_HIER" allowfullscreen></iframe>
-</section>
-
-<section id="kontakt" class="cta-section">
-    <h2>Interesse an Move Easy?</h2>
-    <p>Vereinbaren Sie jetzt einen Termin mit unserem Projektteam.</p>
-    <a class="cta-btn"
-       href="https://calendly.com/sherinkhetib/neues-meeting"
-       target="_blank">
-        Termin buchen
-    </a>
-</section>
-
-<footer>
-    <p>
-        © 2026 Move Easy · Projekt von Sherin Khetib & Bayan Ateyeh · HTW Saar
-    </p>
-</footer>
-
-</body>
-</html>
-
