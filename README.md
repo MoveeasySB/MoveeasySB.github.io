@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Move Easy – Nachhaltige Mobilität für Studierende</title>
+    <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -32,7 +33,7 @@
             margin: 0 auto;
         }
 
-         <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">{
+         {
             display: flex;
             align-items: center;
             gap: 12px;
