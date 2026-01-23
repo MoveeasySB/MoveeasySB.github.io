@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Move Easy – Nachhaltige Mobilität für Studierende</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">
+
 
     <style>
         body {
