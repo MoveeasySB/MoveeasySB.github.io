@@ -7,7 +7,6 @@
 
 
     <style>
-    <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">
         body {
             margin: 0;
             font-family: 'Segoe UI', Tahoma, sans-serif;
@@ -39,8 +38,7 @@
             gap: 12px;
         }
 
-        .logo-area img {
-            height: 60px; /* LOGO-GRÖSSE HIER ÄNDERN */
+        <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">
         }
 
         .logo-area span {
