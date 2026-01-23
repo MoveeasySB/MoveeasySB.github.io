@@ -242,10 +242,13 @@
     </div>
 </section>
 
-<section id="video">
-    <h2>Pitch-Video</h2>
-    <iframe src="https://www.youtube.com/embed/VIDEO_ID_HIER" allowfullscreen></iframe>
-</section>
+<iframe
+    src="https://www.youtube.com/embed/sjB7fGNr9rA"
+    title="Move Easy – Pitch Video"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+
 
 <section id="kontakt" class="cta-section">
     <h2>Interesse an Move Easy?</h2>
