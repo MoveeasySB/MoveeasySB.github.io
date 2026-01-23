@@ -180,7 +180,7 @@
 <nav>
     <div class="nav-container">
         <div class="logo-area">
-            <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:75px;">
+            <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:70px;">
         </div>
 
         <div>
