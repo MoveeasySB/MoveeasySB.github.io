@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Move Easy – Nachhaltige Mobilität für Studierende</title>
-    <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -181,7 +180,7 @@
 <nav>
     <div class="nav-container">
         <div class="logo-area">
-            <img src="moveeasy-logo.png" alt="Move Easy Logo">
+            <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">
             <span>Move Easy</span>
         </div>
 
@@ -193,7 +192,6 @@
         </div>
     </div>
 </nav>
-<img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">
 <header>
     <h1>Move Easy</h1>
     <p>
