@@ -1,4 +1,4 @@
-
+ <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">
 <html lang="de">
 <head>
     <meta charset="UTF-8">
