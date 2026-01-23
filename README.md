@@ -1,4 +1,4 @@
- <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">
+
 <html lang="de">
 <head>
     <meta charset="UTF-8">
@@ -32,7 +32,7 @@
             margin: 0 auto;
         }
 
-        .logo-area {
+         <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">{
             display: flex;
             align-items: center;
             gap: 12px;
