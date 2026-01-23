@@ -181,7 +181,6 @@
     <div class="nav-container">
         <div class="logo-area">
             <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">
-            <span>Move Easy</span>
         </div>
 
         <div>
