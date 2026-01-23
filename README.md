@@ -193,7 +193,7 @@
         </div>
     </div>
 </nav>
-
+<img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">
 <header>
     <h1>Move Easy</h1>
     <p>
