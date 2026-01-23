@@ -38,10 +38,9 @@
             gap: 12px;
         }
 
-        <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">
         }
 
-        .logo-area span {
+        .logo-area span { <img src="moveeasy-logo.png.png" alt="Move Easy Logo" style="height:60px;">
             font-size: 22px;
             font-weight: 700;
             color: #0f766e;
